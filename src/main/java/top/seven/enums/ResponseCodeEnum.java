@@ -1,4 +1,4 @@
-package com.gimhealth.enums;
+package top.seven.enums;
 
 /**
  * 系统返回值枚举

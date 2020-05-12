@@ -1,6 +1,6 @@
-package com.gimhealth.MyException;
+package top.seven.MyException;
 
-import com.gimhealth.enums.ResponseCodeEnum;
+import top.seven.enums.ResponseCodeEnum;
 import lombok.Data;
 
 @Data

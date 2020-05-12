@@ -1,4 +1,4 @@
-package com.gimhealth.config;
+package top.seven.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
@@ -21,14 +21,14 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.gimhealth.controller"))
+                .apis(RequestHandlerSelectors.basePackage("top.seven.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("金亿丰网站")
+                .title("Swagger")
                 .build();
     }
 }

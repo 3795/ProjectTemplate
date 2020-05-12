@@ -1,6 +1,6 @@
-package com.gimhealth.MyException;
+package top.seven.MyException;
 
-import com.gimhealth.vo.ServerResponseVO;
+import top.seven.vo.ServerResponseVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;

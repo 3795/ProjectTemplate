@@ -1,7 +1,7 @@
-package com.gimhealth.vo;
+package top.seven.vo;
 
-import com.gimhealth.MyException.ServerException;
-import com.gimhealth.enums.ResponseCodeEnum;
+import top.seven.MyException.ServerException;
+import top.seven.enums.ResponseCodeEnum;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 

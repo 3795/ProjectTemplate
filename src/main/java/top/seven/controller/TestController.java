@@ -1,4 +1,4 @@
-package com.gimhealth.controller;
+package top.seven.controller;
 
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.GetMapping;
